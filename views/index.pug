@@ -1,0 +1,54 @@
+//- index.pug
+doctype html
+html
+  head
+   title My Dance Website
+  style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul 
+        div#logo 
+          img(src="/static/imgg/logo.jpeg")
+        li #[a(href='/') Home]
+        li #[a(href='/') Services]
+        li #[a(href='/') About] 
+        li #[a(href='/') ClassInfo]
+        li #[a(href='/contact') ContactUs]
+    section#introSection 
+       div   Welcome to Prakriti's Dance Academy 
+       div#small  Eat Dance Sleep Repeat
+    section#missionSection
+      h3 Our mission
+      div.card 
+        h2 Dance with grace
+        div.card-box 
+          div.card-img 
+            img(src="/static/imgg/img1.jpeg")
+          div.card-content 
+            p This is the best dance academy of the universe
+      div.card 
+        h2 Dance the way you like
+        div.card-box 
+          div.card-img 
+            img(src="/static/imgg/img2.jpeg")
+          div.card-content 
+            p This is the best dance academy of the universe
+      div.card 
+        h2 Expert teaching
+        div.card-box 
+          div.card-img 
+            img(src="/static/imgg/img1.jpeg")
+          div.card-content 
+            p This is the best dance academy of the universe
+    section#sponsoreSection
+      h3 Our sponsors 
+      div#sponsors 
+       img(src="/static/imgg/logo1.png", alt="Sponsor Image" , class="simg")
+       img(src="/static/imgg/logo2.png", alt="Sponsor Image" , class="simg")
+       img(src="/static/imgg/logo3.png", alt="Sponsor Image" , class="simg")
+       img(src="/static/imgg/logo4.png", alt="Sponsor Image" , class="simg")
+    section#footer 
+      |  Copyright © PrakritiDanceAcademy | All Rights Reserved
+    script
+      include ../static/script.js

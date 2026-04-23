@@ -1,0 +1,75 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+#logo{display:flex;height: 55px;width:55px;margin top: 4px;mix-blend-mode:multiply;margin-right:15px;}
+#navbar li{
+    list-style: none;padding: 13px 14px;font-family: "Playwrite NZ Basic", cursive;
+}
+#navbar ul{
+    display: flex;flex-direction: row;align-items: center;
+}
+a{text-decoration: none;color: white;}
+a:hover{color: black;}
+#navbar{background-color: rgb(182, 54, 54);}
+#introSection{
+    min-height: 300px;background-color: red;background:center/cover no-repeat url("/static/dance.jpg");color: white;display: flex;
+justify-content: center;align-items: center;font-size: 45px;flex-direction: column;}
+#missionSection{
+   min-height: 300px;background-color:white;text-align: center;justify-content:center ;font-size: 30px;padding top: 20px;
+}
+.card{border: 2px solid black;border-radius: 7px;padding: 10px;height: 200px;width: 30%;display:inline-block;
+    margin: 12px 5px;background-color: rgb(197, 192, 192);}
+.card p{font-family: Arial, Helvetica, sans-serif;}
+.card-box img{height: inherit;}
+h3{font-size: 40px;}
+#sponsors{
+    min-height: 300px;background-color: rgb(209, 165, 165);text-align: center;justify-content:center ;font-size: 30px;padding top: 20px;
+}
+
+.simg {
+    height: 300px;
+    margin: 10px;
+}
+#footer{
+    min-height: 35px;background-color: black;font-family: 'Yeon Sung';color: white;font-size: 15px;
+    display: flex;align-items: center;justify-content: center;
+}
+
+div#small{
+    font-size: 25px;
+}
+.card-box{
+    display: flex;flex-direction: row;
+}
+.card-img{
+    height: 100px;width:100px;mix-blend-mode:multiply;display: flex;flex-direction: column;
+}
+.card-content p{
+    font-size:19px;padding: 25px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    font-size: 25px;margin-top: 3px;font-weight: bold;
+}
+#about {
+    min-height: 250px;
+    background: linear-gradient(to right, #fcc6cb, #f5f5f5);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#about h3 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.7;
+    color: #333;
+}

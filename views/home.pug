@@ -1,0 +1,43 @@
+extends base.pug
+block scripts
+      script(src='../static/script.js')
+block style 
+     style
+      include ../static/style.css
+block content 
+    section#introSection 
+       div   Welcome to Prakriti's Dance Academy 
+       div#small  Eat Dance Sleep Repeat
+    section#missionSection
+      h3 Our mission
+      div.card 
+        h2 Dance with grace
+        div.card-box 
+          div.card-img 
+            img(src="/static/imgg/img1.jpeg")
+          div.card-content 
+            p Develop elegance, balance, and confidence in every movement.
+      div.card 
+        h2 Dance the way you like
+        div.card-box 
+          div.card-img 
+            img(src="/static/imgg/img2.jpeg")
+          div.card-content 
+            p Explore your unique style and express yourself freely through dance.
+      div.card 
+        h2 Expert teaching
+        div.card-box 
+          div.card-img 
+            img(src="/static/imgg/img1.jpeg")
+          div.card-content 
+            p Learn from skilled instructors with professional training experience.
+    section#about
+        h3 About Us
+        p We provide quality dance training that helps students build confidence, creativity, and discipline through the art of dance.
+    section#sponsors
+      h3 Our sponsors 
+      div#sponsors 
+       img(src="/static/imgg/logo1.png", alt="Sponsor Image" , class="simg")
+       img(src="/static/imgg/logo2.png", alt="Sponsor Image" , class="simg")
+       img(src="/static/imgg/logo3.png", alt="Sponsor Image" , class="simg")
+       img(src="/static/imgg/logo4.png", alt="Sponsor Image" , class="simg")
